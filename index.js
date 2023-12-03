@@ -13,7 +13,6 @@ function makeSound(key) {
         case "w":
             var tom1 = new Audio("./sounds/tom-1.mp3")
             tom1.play()
-            console.log("w press")
             break;
         
         case "a":
