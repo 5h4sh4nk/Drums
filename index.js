@@ -1,7 +1,7 @@
 for (var i = 0; i<document.querySelectorAll(".drum").length; i++) {
     document.querySelectorAll(".drum")[i].addEventListener("click", function(){
         makeSound(this.innertHTML);
-        clickAnimation(clicked);
+        clickAnimation(this.innertHTML);
     })
 
     document.querySelectorAll(".drum")[i].addEventListener("keydown", function(event){
